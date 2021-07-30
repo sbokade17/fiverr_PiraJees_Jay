@@ -1,0 +1,54 @@
+.jumbotron{
+  background: #342766;
+  height: 55vh;
+}
+ul li .btn-secondary, .btn-secondary.dropdown-toggle{
+color: #fff;
+background-color: transparent !important;
+border-color: #DEDEDE !important;
+width: 170px;
+}
+img{
+  position: relative;
+  bottom: 180px;
+}
+p{
+  position: relative;
+  bottom: 180px;
+}
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+position: absolute;
+bottom: 0;
+background: #EEAE66;
+background: #EEAE66; /* Black see-through */
+color: #F1F1F1;
+width: 100%;
+transition: .5s ease;
+opacity:0;
+color: white;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+}
+/* When you mouse over the container, fade in the overlay title */
+.col-sm-4:hover .overlay {
+opacity: 1;
+}
+.botton{
+  background: crimson 0% 0% no-repeat padding-box;color: #AAAAAA;
+                  opacity: 1;; position: relative;   border-radius: 25px 25px 25px 25px;
+                  left: -16%; bottom: 20px;
+}
+#footer {
+background: rgba(234, 173, 104, 1);
+width: 100%;
+height: 330px;
+}
+.container {
+width: 100%;
+}
+.list{
+float: left;
+margin-left: 15px;
+}

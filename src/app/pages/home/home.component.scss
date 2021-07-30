@@ -1,0 +1,38 @@
+
+
+
+
+  
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:50%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    .text-block {
+        position: absolute;
+        bottom: 50%;
+        left: 5%;
+      
+        color: white;
+       
+      }
+      
+   #footer {
+    background: rgba(234, 173, 104, 1);
+  
+    height: 330px;
+}
+.container {
+    width: 100%;
+}
+.overlay{
+  color:#E22D5E ;
+}
